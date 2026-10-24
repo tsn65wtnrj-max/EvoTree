@@ -1,0 +1,6 @@
+interface:
+  display_name: "EvoTree einrichten"
+  short_description: "Projektlokale EvoTree-Installation vorbereiten"
+  default_prompt: "Nutze $evotree-setup, um EvoTree im ausgewählten lokalen Projekt sicher einzurichten."
+policy:
+  allow_implicit_invocation: true
