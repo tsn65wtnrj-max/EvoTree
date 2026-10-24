@@ -1,0 +1,28 @@
+{
+  "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
+  "author": {
+    "name": "Andreas Aschenbrenner"
+  },
+  "description": "Prepare a project-local development feature tree with provenance and live history.",
+  "extensions": {
+    "com.openai": {
+      "interface": {
+        "category": "Productivity",
+        "composerIcon": "./assets/icon.svg",
+        "developerName": "Andreas Aschenbrenner",
+        "displayName": "EvoTree",
+        "logo": "./assets/icon.svg",
+        "longDescription": "Track features, requirements, provenance and evidence for one local Codex project in a pixel-art live view. Runs locally on macOS 26+ arm64, with separate recording consent and no extra model API, hooks or MCP server. Setup fetches one exact version and SHA-256-pinned native core over public HTTPS. The core remains free for personal and professional local projects. Public Directory admission and clean-Mac trust are not established.",
+        "privacyPolicyURL": "https://github.com/tsn65wtnrj-max/EvoTree/blob/main/PRIVACY.md",
+        "shortDescription": "Local project feature tree",
+        "supportURL": "https://github.com/tsn65wtnrj-max/EvoTree/issues",
+        "websiteURL": "https://github.com/tsn65wtnrj-max/EvoTree"
+      },
+      "onboardingSkill": "./skills/evotree-setup/SKILL.md",
+      "requires_local_executor": true
+    }
+  },
+  "name": "evotree",
+  "repository": "https://github.com/tsn65wtnrj-max/EvoTree",
+  "version": "0.7.0-dev.64-publication-candidate"
+}
