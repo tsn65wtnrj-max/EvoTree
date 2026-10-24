@@ -1,12 +1,12 @@
 {
-  "core_version": "0.7.0-dev.60-license-candidate",
+  "core_version": "0.7.0-dev.69-english-candidate-r3",
   "format": "evotree-shell-channel-v1",
-  "manifest_sha256": "6fd36cb018010379a9b5632ddc238ded6332df9cf87b1ce56efc7a4195b55d95",
+  "manifest_sha256": "70892b880b3ca3c86cad04435dacfb17045b60782a04d755bd5ba6a12a008868",
   "mode": "download",
   "source": {
-    "bytes": 11351522,
-    "sha256": "6e84fb645bc379427d0358dc158c10dc10deaa57f36d8a684e3ea25146cdcb25",
-    "url": "https://evotree-downloads.pages.dev/artifacts/6e84fb645bc379427d0358dc158c10dc10deaa57f36d8a684e3ea25146cdcb25/evotree-0.7.0-dev.60-license-candidate.zip"
+    "bytes": 11349992,
+    "sha256": "57780cd02eeebd1ce76117594375ab84ae05e34495f0410a337ce3b0bb0dc2e3",
+    "url": "https://evotree-downloads.pages.dev/artifacts/57780cd02eeebd1ce76117594375ab84ae05e34495f0410a337ce3b0bb0dc2e3/evotree-0.7.0-dev.69-english-candidate-r3.zip"
   },
-  "version": "0.7.0-dev.62-host-candidate"
+  "version": "0.7.0-dev.69-english-candidate-r3"
 }
