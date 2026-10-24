@@ -1,0 +1,12 @@
+{
+  "core_version": "0.7.0-dev.60-license-candidate",
+  "format": "evotree-shell-channel-v1",
+  "manifest_sha256": "6fd36cb018010379a9b5632ddc238ded6332df9cf87b1ce56efc7a4195b55d95",
+  "mode": "download",
+  "source": {
+    "bytes": 11351522,
+    "sha256": "6e84fb645bc379427d0358dc158c10dc10deaa57f36d8a684e3ea25146cdcb25",
+    "url": "https://evotree-downloads.pages.dev/artifacts/6e84fb645bc379427d0358dc158c10dc10deaa57f36d8a684e3ea25146cdcb25/evotree-0.7.0-dev.60-license-candidate.zip"
+  },
+  "version": "0.7.0-dev.62-host-candidate"
+}
