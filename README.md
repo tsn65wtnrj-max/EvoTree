@@ -40,8 +40,8 @@ from this allocation.
 
 ## Limitations and support
 
-Public HTTPS delivery and setup without external Python have been tested on the
-existing macOS 26/arm64 host. Clean-Mac, Intel, older macOS, notarization and general
+The host delivery mechanism and setup without external Python have been tested
+on the existing macOS 26/arm64 host. Each new artifact needs its own public readback. Clean-Mac, Intel, older macOS, notarization and general
 platform trust are not established. The installer does not remove quarantine or
 other security attributes. Stop if blocked; do not bypass protection or install
 missing dependencies automatically. Public Directory admission and discovery are
@@ -53,9 +53,9 @@ Do not include private prompts, customer data, secrets or complete project
 archives in reports. Publisher: Andreas Aschenbrenner; copyright alias:
 `tsn65wtnrj-max`.
 
-Integration revision: `0.7.0-dev.67-english-integration`. Executable setup remains
-the verified .62 profile and the hosted core remains .60. That older core still
-contains German UI and operating instructions; their English replacement is being
-prepared and has not been published. This revision translates the public
-integration, not the core. Download hosts and directories may change or become
-unavailable; lawfully installed basic versions remain usable locally.
+Integration revision: `0.7.0-dev.69-english-candidate-r3`. The pinned core has English UI and
+operating instructions. The fixed setup algorithm is retained with updated
+archive/manifest bindings. Build metadata records the tested and publication
+scope; a local test alone does not prove delivery of a new public hash path.
+Download hosts and directories may change or become unavailable; lawfully
+installed basic versions remain usable locally.
