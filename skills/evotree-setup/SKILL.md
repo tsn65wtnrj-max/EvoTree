@@ -2,15 +2,15 @@
 name: evotree-setup
 description: Install EvoTree into a selected local macOS Codex project. Use for EvoTree setup; recording and runtime operation use the installed evotree skill and require separate consent.
 metadata:
-  version: "0.7.0-dev.67-english-integration"
+  version: "0.7.0-dev.69-english-candidate-r3"
   stage: "English integration; Directory admission pending"
 ---
 # Set up EvoTree
 
 The one-time core download requires separate consent to the disclosed download.
 Its exact URL is bound to the Pages origin assigned in the publisher's Cloudflare
-account. The artifact is public; TLS, hashes, bytes and native download/install
-have been tested on the existing host. General platform trust is not established.
+account. Check the exact artifact size, hash and manifest; a prior host test
+does not prove delivery of a new hash path. General platform trust is not established.
 Download only with explicit consent as specified in `channel.json`.
 
 When installation is requested, verify the absolute physical project root and run
@@ -57,5 +57,5 @@ The bound setup adapter has a finite 65-second window. Unexpected or incomplete
 staging data are retained; no automatic retry or recursive deletion. It proves
 neither public platform trust nor Directory admission.
 
-The currently pinned .60 core still has German UI and operating instructions.
-This English integration revision does not replace or translate that archive.
+The pinned core uses English UI and operating instructions. Old stored status
+keys and exact owned legacy instruction blocks are retained for compatibility.
