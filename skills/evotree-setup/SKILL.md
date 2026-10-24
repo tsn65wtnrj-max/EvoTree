@@ -2,38 +2,60 @@
 name: evotree-setup
 description: Install EvoTree into a selected local macOS Codex project. Use for EvoTree setup; recording and runtime operation use the installed evotree skill and require separate consent.
 metadata:
-  version: "0.7.0-dev.64-publication-candidate"
-  stage: "publication candidate; Directory admission pending"
+  version: "0.7.0-dev.67-english-integration"
+  stage: "English integration; Directory admission pending"
 ---
-# EvoTree einrichten
+# Set up EvoTree
 
-Der einmalige Kernbezug benötigt zusätzlich die Zustimmung zum offengelegten Download. Die genaue Downloadadresse ist an die im eigenen Cloudflare-Konto zugewiesene Pages-Origin gebunden. Artefakt öffentlich bereitgestellt, TLS/Hash/Bytes und der native Download-Installationsweg auf dem Testhost geprüft; keine pauschale Plattform-Trustabnahme. Download nur nach ausdrücklicher Zustimmung gemäß channel.json.
+The one-time core download requires separate consent to the disclosed download.
+Its exact URL is bound to the Pages origin assigned in the publisher's Cloudflare
+account. The artifact is public; TLS, hashes, bytes and native download/install
+have been tested on the existing host. General platform trust is not established.
+Download only with explicit consent as specified in `channel.json`.
 
-Bei gewünschter Installation den absoluten physischen Projektroot prüfen und
-mit der vorliegenden Installationszustimmung ausführen:
+When installation is requested, verify the absolute physical project root and run
+the following with the existing installation consent:
 
 ```sh
-/bin/sh <dieser-skill>/scripts/install.sh --root <absoluter-projektroot> --confirm-install --confirm-download
+/bin/sh <this-skill>/scripts/install.sh --root <absolute-project-root> --confirm-install --confirm-download
 ```
 
-Die genaue Version, Bezugsart, SHA-256 und Manifestbindung stehen in
-[channel.json](channel.json). Keine Ersatzquelle, neuere Version oder automatischen
-Retries verwenden. Die gebundenen Dateien werden vor Ausführung geprüft;
-Installation aktiviert weder Capture, Producer, autonome Aufnahme noch Runtime.
-Fehler können einen teilweise installierten Zustand hinterlassen; dann Status
-prüfen, keine erfolgreiche Installation oder Aktivierung unterstellen.
+[channel.json](channel.json) specifies the exact version, source mode, SHA-256 and
+manifest binding. Do not use alternative sources, newer versions or automatic
+retries. Bound files are verified before execution. Installation enables neither
+capture, the producer, autonomous recording nor the runtime. Failures can leave a
+partial installation; inspect status instead of assuming installation or activation
+succeeded.
 
-Nach Erfolg die installierte `.agents/skills/evotree/SKILL.md` und die im Ergebnis
-genannte `instruction_file` lesen; für Betrieb `$evotree` verwenden. Dieser
-Setupskill ist separat benannt, damit sein Pfad den Produktinstaller nicht blockiert.
-Ausdrückliche Nutzeranweisungen haben Vorrang. Lizenzaufteilung und sämtliche
-installierten Kernpfade: [LICENSE-MAP.json](LICENSE-MAP.json), gültige Texte unter
-`licenses/`. Eigene Integration MIT, eigene Kernanteile Free Local; Drittrechte bleiben erhalten. Kompilierter Kern bleibt kopierbar und analysierbar; dünne Wrapper und Browserdateien sind lesbar.
+After success, read the installed `.agents/skills/evotree/SKILL.md` and the reported
+`instruction_file`; use `$evotree` for operation. This setup skill has a distinct
+name so its path does not block the product installer. Explicit user instructions
+take precedence. License allocation and every installed core path are documented
+in [LICENSE-MAP.json](LICENSE-MAP.json), with license texts under `licenses/`.
+Own integration contributions use MIT; own core contributions use Free Local;
+third-party rights remain intact. The compiled core can still be copied and
+analyzed; thin wrappers and browser files are readable.
 
-Native Vorschau: ausschließlich macOS 26+ auf arm64. Die Einrichtung nutzt vorhandene Mac-Systemwerkzeuge; keine zusätzliche Pythoninstallation erforderlich. Kein Intel-/Clean-Mac-/Notarisierungs-PASS. Konkrete Drittanbietertexte und die Dateizuordnung sind im Kern enthalten; Vollständige Herkunftsprüfung und Plattformannahme bleiben offen; die Hostfreigabe ist getrennt von der öffentlichen Integration.
+Native preview: macOS 26+ on arm64 only. Setup uses existing Mac system tools and
+needs no additional Python installation. No Intel, clean-Mac or notarization PASS.
+The core includes specific third-party texts and file allocation; complete
+provenance verification and platform acceptance remain open. Host authorization
+is separate from public integration authorization.
 
-Dieser Installer entfernt keine Quarantäneattribute. Ein als quarantiniert markiertes Kern-ZIP blockiert vor Ausführung und bleibt erhalten, bis ein regulärer Plattformvertrauensweg nachgewiesen ist. Bei nicht lesbaren Sicherheitsmetadaten ebenfalls stoppen; keine Attribute löschen oder Systemschutz umgehen.
+This installer does not remove quarantine attributes. A quarantined core ZIP is
+blocked before execution and retained until a normal platform trust path is
+established. Also stop if security metadata cannot be read; do not delete
+attributes or bypass system protection.
 
-Codex führt die Einrichtung aus; keine separate Mac-App und kein manuell zu bedienender App-Installer. Ausführung ausschließlich im lokalen Codex-Executor, mit absoluten physischen Pfaden. Bei fehlenden Systemwerkzeugen blockiert melden; nichts nachinstallieren. Installation und Download benötigen ihre vorhandene Zustimmung; Wiederholung oder Start erteilt kein neues Opt-in.
+Codex performs setup. There is no separate Mac app or manually operated external
+app installer. Execute only through the local Codex executor, using absolute
+physical paths. Report missing system tools as a blocker; do not install anything.
+Installation and download require their existing consent; repeating setup or
+starting a process does not grant another opt-in.
 
-Der gebundene Setupadapter verwendet ein endliches 65-Sekunden-Fenster. Unerwartete oder unvollständige Stagedaten bleiben erhalten; keine automatische Wiederholung oder rekursive Löschung. Er bestätigt keinen öffentlichen Plattformvertrauens- oder Verzeichnisannahmenachweis.
+The bound setup adapter has a finite 65-second window. Unexpected or incomplete
+staging data are retained; no automatic retry or recursive deletion. It proves
+neither public platform trust nor Directory admission.
+
+The currently pinned .60 core still has German UI and operating instructions.
+This English integration revision does not replace or translate that archive.
