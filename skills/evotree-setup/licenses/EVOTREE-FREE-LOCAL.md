@@ -1,83 +1,83 @@
 # EvoTree Free Local License 1.0
 
-Lizenzgeber für die eigenen, in LICENSE-MAP.json bezeichneten Anteile:
-`tsn65wtnrj-max`. Endgültige Wahl dieser Lizenzaufteilung am 24.10.2026 durch den
-Nutzer freigegeben. Die Freigabe ist keine vollständige Ursprungsattestation,
-Plattformzulassung oder Erlaubnis zur Veröffentlichung durch den Agenten.
+Licensor for the project's own contributions identified in `LICENSE-MAP.json`:
+`tsn65wtnrj-max`. The user approved this license allocation on 2026-10-24.
+That approval is not a complete provenance attestation, platform admission or
+permission for the agent to publish. This English rendering preserves the
+allocation and rights of the approved German text.
 
-## 1. Gegenstand
+## 1. Subject matter
 
-Diese Lizenz gilt für die eigenen EvoTree-Anteile der bezeichneten Paketrevision,
-einschließlich ihrer Betriebsreferenzen und Produkteinstiegsskripte. Gesonderte
-MIT-Integrationsdateien, fremde Bestandteile und spätere kosmetische Pakete sind
-ausgenommen. Bei gemischten Dateien erfasst sie ausschließlich die eigenen
-Anteile, soweit der Lizenzgeber darüber verfügen darf. Sie lizenziert fremde
-Materialien nicht um und nimmt keine früher wirksam erteilten Rechte zurück.
+This license applies to the project's own EvoTree contributions in the designated
+package revision, including their operating references and product entry scripts.
+Separately MIT-licensed integration files, third-party components and future
+cosmetic packages are excluded. In mixed files, it covers only the licensor's own
+contributions to the extent the licensor may grant rights to them. It does not
+relicense third-party materials or revoke rights previously granted effectively.
 
-## 2. Dauerhaft kostenlose lokale Nutzung
+## 2. Free local use without a time limit
 
-Der Lizenzgeber räumt ein nicht ausschließliches, zeitlich unbefristetes und
-gebührenfreies Recht ein, die bezeichnete Grundversion auf eigenen oder rechtmäßig
-zur Nutzung überlassenen Computern lokal zu installieren, auszuführen, zu sichern
-und für eigene private, berufliche und kommerzielle Softwareprojekte zu verwenden.
-Erforderliche lokale Kopien, Backups und Anpassungen für diese eigene Nutzung sind
-erlaubt. Vertrauliche Kundendaten und fremde Rechte bleiben geschützt. Diese Lizenz
-erteilt keine Einwilligung zur Datenerfassung.
+The licensor grants a non-exclusive, perpetual, royalty-free right to install,
+run and back up the designated basic version locally on computers you own or are
+lawfully allowed to use, and to use it for your own personal, professional and
+commercial software projects. Necessary local copies, backups and adaptations for
+that use are permitted. Confidential customer data and third-party rights remain
+protected. This license does not grant consent to data capture.
 
-Zahlung, Spende, spätere Premiumanschaffung, Registrierung beim Entwickler oder
-verpflichtende Cloudverarbeitung sind keine Voraussetzung dieser Kernnutzung.
-Rechtmäßig erhaltene Grundversionen haben keine zeitliche Sperre oder nachträgliche
-Entwertung. Nutzerprojekte und Nutzerdaten werden durch diese Lizenz weder
-lizenziert noch übertragen oder zur Veröffentlichung verpflichtet.
+Payment, donation, a later premium purchase, registration with the developer or
+mandatory cloud processing are not prerequisites for this core use. Lawfully
+received basic versions have no time lock or subsequent invalidation. This
+license neither licenses nor transfers user projects or data and does not require
+their publication.
 
-## 3. Bezeichnete Vertriebswege und Anbieterrechte
+## 3. Designated distribution channels and provider rights
 
-GitHub ist ausschließlich für die gesondert unter MIT lizenzierte öffentliche
-Integration vorgesehen. Der Produktkern wird damit nicht zur Bereitstellung auf
-GitHub oder zur Einräumung zusätzlicher GitHub-Plattformrechte freigegeben.
+GitHub is designated only for the separately MIT-licensed public integration.
+This does not authorize hosting the product core on GitHub or granting additional
+GitHub platform rights to it.
 
-OpenAI ist der vorgesehene Pluginverteiler; Cloudflare Pages ist der bezeichnete
-statische Downloadanbieter. Für die in LICENSE-MAP.json und ARTIFACTS.json genau
-bezeichneten offiziellen Artefakte räumt der Lizenzgeber, soweit berechtigt, die
-für Hosting, Prüfung, Sicherheitsprüfung, Speicherung, Caching und Übertragung
-erforderlichen Rechte ein. Eingeschlossen sind die hierzu notwendigen technischen
-Bearbeitungen und Unterauftragnehmerrechte. Diese begrenzte Einräumung betrifft
-keine Nutzerprojektinhalte und keine allgemeine Weitervermarktung des Kerns.
-Der ausgelieferte Installationsinhalt muss unabhängig davon den vollständigen
-freigegebenen SHA-256-Hash erfüllen.
+OpenAI is the intended plugin distributor; Cloudflare Pages is the designated
+static download provider. For the official artifacts precisely identified in
+`LICENSE-MAP.json` and `ARTIFACTS.json`, the licensor grants, to the extent entitled
+to do so, the rights necessary for hosting, review, security review, storage,
+caching and transmission. This includes technical adaptations and subcontractor
+rights necessary for those purposes. This limited grant covers neither user
+project content nor general remarketing of the core. Independently of that grant,
+delivered installation content must match the full approved SHA-256 hash.
 
-Diese Lizenz setzt Anbieterbedingungen nicht außer Kraft und begrenzt sie nicht
-einseitig. Insbesondere ist damit nicht geklärt, wie die App-Responses-Regelung
-der OpenAI App Developer Terms auf die konkrete Implementierung anzuwenden ist.
-Weitergehende verlangte Rechte, etwa an App Responses oder für Training, benötigen
-eine gesonderte konkrete Entscheidung vor ihrer Annahme. Eine Paketinstallation
-oder Hostwahl erteilt diese Zustimmung nicht. Lizenzzuordnung, Herkunftsgrenzen
-und erforderliche Drittanbieterhinweise müssen erhalten bleiben.
+This license does not override or unilaterally limit provider terms. In particular,
+it does not establish how the App Responses provision of the OpenAI App Developer
+Terms applies to this implementation. Any additional required rights, such as
+rights to App Responses or for training, require a separate, specific decision
+before acceptance. Package installation or selection of a host does not grant
+that consent. License allocation, provenance limits and required third-party
+notices must be retained.
 
-Eine allgemeine Erlaubnis, den Kern als eigenständiges Produkt zu verkaufen,
-entgeltlich weiterzulizenzieren oder bearbeitete Runtimeversionen außerhalb der
-bezeichneten Wege öffentlich zu verbreiten, wird nicht erteilt. Zwingende und
-bereits wirksam erteilte Rechte bleiben unberührt. Die kostenlose eigene berufliche
-und kommerzielle Projektnutzung nach Abschnitt 2 bleibt ausdrücklich erlaubt.
+No general permission is granted to sell the core as a standalone product,
+sublicense it for payment or publicly distribute modified runtime versions outside
+the designated channels. Mandatory rights and rights already effectively granted
+remain unaffected. Free use for one's own professional and commercial projects
+under section 2 remains expressly permitted.
 
-## 4. Drittrechte und zwingende Rechte
+## 4. Third-party and mandatory rights
 
-Drittanbieterbedingungen und erforderliche Hinweise haben für ihre eigenen
-Bestandteile Vorrang; siehe LICENSE-MAP.json und licenses/third-party/. Die
-Herkunftsprüfung bleibt in ihrem tatsächlich dokumentierten Umfang begrenzt.
-Diese Lizenz ersetzt keine vollständige Rechtebestätigung.
+Third-party terms and required notices take precedence for their respective
+components; see `LICENSE-MAP.json` and `licenses/third-party/`. Provenance review
+remains limited to its actual documented scope. This license does not replace a
+complete rights confirmation.
 
-Zwingende Rechte einschließlich notwendiger Sicherung, zulässiger Untersuchung,
-Tests und gesetzlich erlaubter Interoperabilität oder Dekompilierung bleiben
-unberührt. Es gilt kein pauschales Verbot gesetzlich geschützter Handlungen.
-Gesetzliche Verbraucherrechte bleiben erhalten; siehe insbesondere §§69d, 69e
-und 69g UrhG, soweit anwendbar. Keine ungeprüfte Rechtswahl oder Gerichtsstandsklausel.
+Mandatory rights, including necessary backups, permitted examination, testing and
+legally allowed interoperability or decompilation, remain unaffected. There is no
+blanket prohibition on legally protected activities. Statutory consumer rights
+remain intact; see in particular sections 69d, 69e and 69g of the German Copyright
+Act (UrhG), where applicable. No unreviewed choice-of-law or jurisdiction clause is
+introduced.
 
-## 5. Technische und betriebliche Grenzen
+## 5. Technical and operational limitations
 
-Ein Archiv ist kein Kopierschutz. Ausgelieferte Dateien bleiben technisch lesbar,
-kopierbar und analysierbar. Diese Lizenz garantiert keine Kompatibilität mit jeder
-Codex-/macOS-Version, fehlerfreie Semantik, dauerhafte Downloadverfügbarkeit,
-Verzeichnisaufnahme, künftige Updates oder kostenlosen individuellen Support.
-Maßgeblich bleiben die veröffentlichten Systemanforderungen und belegten Funktionen.
-Zwingende gesetzliche Ansprüche bleiben unberührt; kein pauschaler Haftungsausschluss.
+An archive is not copy protection. Delivered files remain technically readable,
+copyable and analyzable. This license does not guarantee compatibility with every
+Codex/macOS version, error-free semantics, permanent download availability,
+Directory admission, future updates or free individual support. Published system
+requirements and evidenced functionality remain decisive. Mandatory statutory
+claims remain unaffected; there is no blanket exclusion of liability.
