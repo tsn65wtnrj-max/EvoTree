@@ -1,96 +1,106 @@
-# EvoTree — Datenschutzhinweise zur lokalen Grundversion
+# EvoTree — privacy notice for the local basic version
 
-Stand: 24.10.2026. Herausgeber: Andreas Aschenbrenner. Als öffentlicher Kontaktweg ist nach Freigabe dieses Integrationsrepositorys dessen GitHub-Issues-Bereich vorgesehen. Keine private E-Mail-Adresse ist Bestandteil dieses Pakets.
+Updated: 2026-10-24. Publisher: Andreas Aschenbrenner. Public contact:
+[GitHub Issues](https://github.com/tsn65wtnrj-max/EvoTree/issues).
+This package contains no private email address.
 
-## Zweck und Aktivierung
+## Purpose and activation
 
-EvoTree stellt die Entwicklung eines ausgewählten lokalen Codex-Projekts als
-Featurestruktur mit Herkunft, Änderungen und Prüfbelegen dar. Installation allein
-aktiviert keine Erfassung, Produzentenverarbeitung oder Runtime. Vor Aktivierung
-werden das konkrete Projekt, die native Sitzung, die Quelldatei, der Start am
-aktuellen Dateiende, die Laufzeit und der Konfigurationshash angezeigt.
-Capture, lokale Anforderungsverarbeitung und optionale Vorschläge im vorhandenen
-Codex-Kontext benötigen ihre jeweiligen getrennten Zustimmungen. Kein Vollimport
-alter Sitzungen und keine Suche nach Inhalten anderer Chats.
+EvoTree represents development of a selected local Codex project as a feature
+structure with provenance, changes and evidence. Installation alone does not
+enable capture, producer processing or the runtime. Before activation, the
+specific project, native session, source file, start at the current end of that
+file, duration and configuration hash are shown.
 
-## Welche Daten lokal verarbeitet und gespeichert werden
+Capture, local requirements processing and optional suggestions in the existing
+Codex context each require their respective separate consent. There is no full
+import of past sessions or search through other chats' contents.
 
-Im normalen project-session-v1-Modus liest EvoTree zukünftige freigegebene native
-Eingänge aus der gebundenen Quelldatei. Gespeichert werden Projekt-/Sitzungs-/
-Eingangsidentitäten, Inhalts-Hashes, Zeitpunkte, Cursor, Quittungen, Feature- und
-Anforderungstitel, Beschreibungen, Beziehungen, Revisionen und Historie.
-Vollständige Prompttexte und Toolantworten werden in diesem Modus nicht als solche
-archiviert. Abgeleitete Titel oder Beschreibungen können dennoch private Inhalte
-enthalten. Hashes sind kein Beweis einer Anonymisierung. Keine allgemeine Erkennung
-oder vollständige Entfernung aller Geheimnisse wird zugesagt. Keine Credentials
-oder fremden privaten Inhalte für eine Aufnahme auswählen.
+## Data processed and stored locally
 
-Autonome Vorschläge bleiben als Agentenherkunft von UserMessages und tatsächlichen
-Prüfbelegen getrennt. Ein optional ausdrücklich vorbereiteter lokaler Evidence-Test
-liest die konkret bestätigten Projektdateien und führt nur den bestätigten Befehl
-aus. Er speichert Datei-/Befehlshashes, Scope, Ergebnis, Zeitpunkte und signierte
-Belege; stdout/stderr nur als Hash und Bytezahl, nicht als freie Ausgabe.
-Ein Testbefehl ist keine zusätzliche Betriebssystem-Sandbox: Er besitzt die
-tatsächlichen bestehenden Codex-/macOS-Rechte. Keine untrusted Befehle bestätigen.
+In normal `project-session-v1` mode, EvoTree reads authorized future native inputs
+from the bound source file. It stores project, session and input identities,
+content hashes, timestamps, cursors, receipts, feature and requirement titles,
+descriptions, relationships, revisions and history. Complete prompt texts and
+tool responses are not archived as such in this mode. Derived titles or
+descriptions can nevertheless contain private information. Hashes do not prove
+anonymization. General detection or complete removal of all secrets is not
+promised. Do not select credentials or other people's private content for capture.
 
-Lokale Betriebsdiagnose enthält begrenzte Zustands-/Fehlerzähler und gegebenenfalls
-die erste technische Fehlerklasse, einen festen Fehlercode, Phase, Runtimebezug,
-UTC-/monotone Zeit und minimierten Lifecycle-Zustand. Keine freien Exceptiontexte,
-Stacktraces oder vollständigen Settingswerte in dieser Erstfehlerdiagnose.
+Autonomous suggestions retain agent provenance, separate from UserMessages and
+actual evidence. An optional, explicitly prepared local evidence test reads only
+the confirmed project files and runs only the confirmed command. It stores file
+and command hashes, scope, outcome, timestamps and signed evidence; stdout/stderr
+are retained only as hashes and byte counts, not free-form output. A test command
+does not create an additional operating-system sandbox: it has the actual existing
+Codex/macOS permissions. Do not approve untrusted commands.
 
-## Speicherort, Dauer und lokale Ansicht
+Local operational diagnostics contain bounded state and error counters and, where
+applicable, the first technical error class, a fixed error code, phase, runtime
+reference, UTC/monotonic time and minimized lifecycle state. These first-error
+diagnostics exclude free-form exception messages, stack traces and full settings.
 
-Der tatsächliche private Speicherort und die Bindung stehen im Projektstatus.
-Runtime-/Registrierungsdaten liegen projektbezogen unter .evotree; Produktdateien
-unter .agents/skills/evotree. Der lokale Ansichtsserver bindet ausschließlich an
-127.0.0.1 und verlangt projektbezogene Authentifizierung. Wer das Nutzerkonto,
-dessen lokale Schlüssel oder eigene Backups kontrolliert, kann Daten gegebenenfalls
-lesen oder kopieren; EvoTree ersetzt keinen Betriebssystem-Zugriffsschutz.
+## Storage, retention and local view
 
-Gespeicherte Graph-, Herkunfts- und Prüfdaten haben keine automatische Löschfrist.
-Sie bleiben lokal bis zur ausdrücklich bestätigten Produktlöschung erhalten.
-Das Ende eines zeitlich begrenzten Aufnahmefensters und Deaktivierung beenden neue
-Aufnahme, löschen aber keine bisherige Historie. Eine gespeicherte Ansicht kann
-bei deaktivierter Erfassung geöffnet werden und startet diese nicht erneut.
+Project status reports the actual private storage location and binding. Runtime
+and registration data are project-specific under `.evotree`; product files are
+under `.agents/skills/evotree`. The local view server binds only to `127.0.0.1`
+and requires project-specific authentication. Someone controlling your user
+account, local keys or backups may be able to read or copy the data. EvoTree does
+not replace operating-system access controls.
 
-## Kontrolle und Löschung
+Stored graph, provenance and evidence data have no automatic deletion deadline.
+They remain local until product-data deletion is explicitly confirmed. The end
+of a bounded capture window and deactivation stop new capture but do not delete
+existing history. A saved view can open while capture is disabled and does not
+restart it.
 
-Die installierte Referenz SESSION_CONSENT.md beschreibt Status, Deaktivierung,
-Stopp und die getrennt zu bestätigende Projektlöschung. Die Projekt-ID muss für
-die Löschung ausdrücklich bestätigt werden. Ein eingerichteter optionaler
-Anmeldestart muss zuvor regulär deaktiviert werden. Die Produktlöschung entfernt
-die erfassten Eingangs-Hashes, Graphen und Quittungen; ein deaktivierter
-Wiederimportsperrvermerk bleibt erhalten. Native Codex-Originaldateien werden
-nicht verändert oder gelöscht. Registrierungs-/Consentmetadaten und Paketbackups
-verbleiben bis zum gesonderten sicheren Artefaktcleanup.
+## Control and deletion
 
-Selbst erstellte Exporte, Betriebssystem-/Nutzerbackups und originale Codex-
-Transkripte liegen außerhalb dieser Produktlöschung. Vor Weitergabe lokale
-Graphen, Exporte und Diagnoseangaben selbst auf vertrauliche Inhalte prüfen.
-Nach erneuter Zustimmung beginnt ein neues Aufnahmefenster am aktuellen EOF;
-deaktivierte Zeiträume werden nicht rückwirkend importiert.
+The installed `SESSION_CONSENT.md` reference describes status, deactivation,
+stopping and separately confirmed project-data deletion. Deletion requires explicit
+confirmation of the project ID. Any configured optional login startup must first
+be disabled through the normal procedure. Product-data deletion removes captured
+input hashes, graphs and receipts; a disabled reimport-blocking marker remains.
+Original native Codex files are neither modified nor deleted. Registration and
+consent metadata and package backups remain until separate, safe artifact cleanup.
 
-## Übermittlungen und andere Anbieter
+Exports you created, operating-system/user backups and original Codex transcripts
+are outside this product-data deletion. Check local graphs, exports and diagnostic
+details for confidential content before sharing them. After renewed consent, a
+new capture window starts at the current EOF; disabled periods are not imported
+retroactively.
 
-EvoTree verwendet keine Telemetrie-SDKs, eigenen Modellclients oder zusätzlichen
-KI-APIs. Speicher-, Layout- und Livewege laufen lokal. Optionaler semantischer
-Abgleich findet im bestehenden Codex-Modellkontext statt und unterliegt dessen
-vorhandenen Daten- und Kontoeinstellungen; dies ist keine Aussage, dass Codex selbst
-offline arbeitet. Kein Nutzerprojekt wird an einen EvoTree-Cloudserver übertragen.
+## Transfers and other providers
 
-Das OpenAI-Pluginpaket bündelt das gepinnte Kernarchiv. Der skills.sh-Weg kann
-einmalig ein fest versioniertes HTTPS-Artefakt vom vorgesehenen statischen Anbieter Cloudflare Pages beziehen; die konkrete Origin ist https://evotree-downloads.pages.dev (statischer Download öffentlich bereitgestellt).
-Der Host kann technische Abrufmetadaten wie IP, Zeitpunkt und Artefaktpfad sehen.
-Im Downloadrequest werden keine Projektpfade, Sitzungs-IDs, Prompts oder Credentials
-übergeben. Nach Installation benötigt der Kern diesen Host nicht zur Verarbeitung.
-Künftige Updates oder erneute Einrichtung können einen neuen ausdrücklich
-gewählten Bezug erfordern. Cloudflare verarbeitet technische Abruf-/Verkehrsmetadaten nach seinen eigenen Bedingungen und seiner Datenschutzerklärung (https://www.cloudflare.com/privacypolicy/). Keine feste Loglöschfrist oder Null-Logging-Zusage. Kostenloser Tarif und pages.dev-Name begründen keine dauerhafte Verfügbarkeits- oder Retentionsgarantie. Die unveränderte öffentliche HTTPS-Auslieferung einschließlich TLS, Bytes, Hashes und Headern wurde geprüft. Das ist keine Codex-Plugin-/Directory-Vertrauensabnahme. Ergänzende Downloadhinweise: https://evotree-downloads.pages.dev/PRIVACY.md.
+EvoTree has no telemetry SDK, model client of its own or additional AI API.
+Storage, layout and live-update processing run locally. Optional semantic matching
+uses the existing Codex model context and its data/account settings; this does not
+mean Codex itself runs offline. No user project is sent to an EvoTree cloud server.
 
-Codex/OpenAI und skills.sh beziehungsweise deren Installationswerkzeuge haben
-eigene Datenschutzbedingungen. Für dokumentierte Skills-CLI-Nutzung außerhalb
-einer gesondert freigegebenen Indexierungsprobe ist DISABLE_TELEMETRY=1 vorgesehen;
-dies ist keine Zusage über sämtliche Drittanbieterwerkzeuge oder Plattformlogs.
-Es gibt keinen Login bei EvoTree, keine verpflichtende Cloud und keine Übertragung
-an den Rechner des Entwicklers.
+The OpenAI plugin package bundles the pinned core archive. The skills.sh route can
+download one fixed-version HTTPS artifact from Cloudflare Pages at
+`https://evotree-downloads.pages.dev`. The static download is publicly available.
+The host can see technical request metadata such as IP address, time and artifact
+path. Download requests do not include project paths, session IDs, prompts or
+credentials. After installation, the core does not need that host to process
+projects. Future updates or a new setup can require another explicitly chosen
+download.
 
-Diese Hinweise beschreiben die dokumentierten Datenwege und lokalen Kontrollen. Die genaue öffentliche Developer-Namenszuordnung und Verzeichnisannahme werden dadurch nicht bestätigt. Keine privaten Nutzerdaten in öffentliche Supportkanäle übertragen.
+Cloudflare processes technical request/traffic metadata under its own terms and
+[privacy policy](https://www.cloudflare.com/privacypolicy/). No fixed log-deletion
+period or zero-logging guarantee is promised. The free plan and pages.dev name do
+not guarantee permanent availability or retention. The unchanged public HTTPS
+delivery, including TLS, bytes, hashes and headers, was tested. This is not Codex
+plugin trust or Directory acceptance. See the additional
+[download notice](https://evotree-downloads.pages.dev/PRIVACY.md).
+
+Codex/OpenAI, skills.sh and installation tools have their own privacy terms.
+Documented Skills CLI use outside a separately authorized indexing test is intended
+to use `DISABLE_TELEMETRY=1`; this is not a guarantee about every third-party tool
+or platform log. EvoTree has no user login, mandatory cloud service or transfer to
+the developer's computer.
+
+This notice describes the documented data paths and local controls. It does not
+confirm the exact public Developer identity mapping or Directory admission. Do not
+send private user data to public support channels.
