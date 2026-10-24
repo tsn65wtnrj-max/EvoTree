@@ -21,14 +21,14 @@
         "category": "own_review_metadata",
         "final_owner_grant": true,
         "hash_binding": "MANIFEST.json",
-        "sha256": "35823e101a4aa24bf2ee0fa7a1a526ef73d8fd495d07f6fca542229dec6535e5",
+        "sha256": "91300e960f4cee137ef787648c0bc20776166ae5edc2da0a72a0d4945f412203",
         "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED"
       },
       "LICENSE-STATUS.md": {
         "category": "own_product_material_pending_review",
         "final_owner_grant": true,
         "provenance": "Original per-file rights review remains limited; not inferred from Codex generation",
-        "sha256": "08810468f57584cdec4f03e885b843e852daad8d8ab3798d51cb2b3f379a7885",
+        "sha256": "c6099558b952ec01d294188e82d18ac6e79ab81c35b98a258857e46c1b33dcaf",
         "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED",
         "terms": "EvoTree Free Local License 1.0 for cleared own material; earlier grants and third-party rights preserved"
       },
@@ -36,14 +36,14 @@
         "category": "own_review_metadata",
         "final_owner_grant": true,
         "hash_binding": "external pinned installer/profile",
-        "sha256": "6fd36cb018010379a9b5632ddc238ded6332df9cf87b1ce56efc7a4195b55d95",
+        "sha256": "70892b880b3ca3c86cad04435dacfb17045b60782a04d755bd5ba6a12a008868",
         "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED"
       },
       "SKILL.md": {
         "category": "own_product_material_pending_review",
         "final_owner_grant": true,
         "provenance": "Original per-file rights review remains limited; not inferred from Codex generation",
-        "sha256": "405879fa3aba06541d914dccc1c689648e16b1f8fe86250130f543bfbbaacc72",
+        "sha256": "13e346c151a65730e63f216526521c2c9516555d58fe56447cdd8e9d70f6189f",
         "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED",
         "terms": "EvoTree Free Local License 1.0 for cleared own material; earlier grants and third-party rights preserved"
       },
@@ -59,7 +59,7 @@
         "category": "own_product_material_pending_review",
         "final_owner_grant": true,
         "provenance": "Original per-file rights review remains limited; not inferred from Codex generation",
-        "sha256": "b27825790c943623f503cdc94986833788251b65165ba1c2ba29e257b8d90140",
+        "sha256": "a3a6f93385a4ae6ebbe17b3d9debe104fc01a2dc7643ffab628635c25fceec6a",
         "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED",
         "terms": "EvoTree Free Local License 1.0 for cleared own material; earlier grants and third-party rights preserved"
       },
@@ -68,14 +68,14 @@
         "final_owner_grant": false,
         "own_parts_license_choice_approved": true,
         "provenance": "45 compiled modules; own source-rights limitations remain",
-        "sha256": "86e0ffa3fea967f1bf7428c2a976b5d8ede8fbcda35afe1b1bd2a0d020572bfa",
+        "sha256": "9b7962b190a73069d419ea1b11af93b3af286fe90dbdc0df6e0afbd2bc3a4c5c",
         "terms": "Own EvoTree parts: EvoTree Free Local License 1.0. Nuitka target runtime: AGPL-3.0 with Runtime Library Exception 1.0; inline zlib and Python embedded materials retain their terms."
       },
       "assets/evotree/gate4a/web/app.js": {
         "category": "own_product_material_pending_review",
         "final_owner_grant": true,
         "provenance": "Original per-file rights review remains limited; not inferred from Codex generation",
-        "sha256": "c42714f383ec6dd4f0a3a2469434d59bd8a3131f225e375a79c43017be25f1e3",
+        "sha256": "03cdc8787758837cc39d0a9d85daad3d2c8672bf95a76f94685a52fbfd411db1",
         "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED",
         "terms": "EvoTree Free Local License 1.0 for cleared own material; earlier grants and third-party rights preserved"
       },
@@ -83,7 +83,7 @@
         "category": "own_product_material_pending_review",
         "final_owner_grant": true,
         "provenance": "Original per-file rights review remains limited; not inferred from Codex generation",
-        "sha256": "525940b682075ba902631d14129dcebd8499935ee2115e0a4f935343e41d9203",
+        "sha256": "5d2d1d686ee737251b6843f31131f2864c1ebd0de89c9a9abac632d2a95dc11e",
         "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED",
         "terms": "EvoTree Free Local License 1.0 for cleared own material; earlier grants and third-party rights preserved"
       },
@@ -91,7 +91,7 @@
         "category": "own_product_material_pending_review",
         "final_owner_grant": true,
         "provenance": "Original per-file rights review remains limited; not inferred from Codex generation",
-        "sha256": "72fb0401af7976163d1bfc4437c59f2cdbaa5cc7182913b27681ff5da6a8e307",
+        "sha256": "54614210c5a6a2e235d0550ba49eae3d53d2ddf2f14a6982cffb359a851d87ea",
         "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED",
         "terms": "EvoTree Free Local License 1.0 for cleared own material; earlier grants and third-party rights preserved"
       },
@@ -99,7 +99,7 @@
         "category": "own_product_material_pending_review",
         "final_owner_grant": true,
         "provenance": "Original per-file rights review remains limited; not inferred from Codex generation",
-        "sha256": "01c0717e224a1e9641c592ca8943e158eef4410a1fc2a319d94a5338aa38ef3b",
+        "sha256": "abcb663d19d0271e1542d8308c911b1c671ebd9741cc8c4df6b84942327d759d",
         "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED",
         "terms": "EvoTree Free Local License 1.0 for cleared own material; earlier grants and third-party rights preserved"
       },
@@ -123,7 +123,7 @@
         "category": "own_product_material_pending_review",
         "final_owner_grant": true,
         "provenance": "Original per-file rights review remains limited; not inferred from Codex generation",
-        "sha256": "54d5928b41325f9e1382c20a5a94cf4f675ec1f83189d22ac797f0378e890636",
+        "sha256": "27b7fec377f16f0301a20dd0a4f5b837388561a93a6072fba2247ea2dab5d5e8",
         "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED",
         "terms": "EvoTree Free Local License 1.0 for cleared own material; earlier grants and third-party rights preserved"
       },
@@ -137,19 +137,19 @@
       "licenses/EVOTREE-FREE-LOCAL.md": {
         "category": "license_text",
         "final_owner_grant": true,
-        "sha256": "3fb10c995e9445b14b993754189734c5051a2f2160a9534be92bf249a6c19ff7",
+        "sha256": "2cb1b4bb6bd524278b30c75719265c3f11dba39ea38a458ce9f89a4cd3ddc41f",
         "terms": "EvoTree Free Local License 1.0"
       },
       "licenses/third-party/COMPONENTS.json": {
         "category": "third_party_notice_or_inventory",
         "final_owner_grant": false,
-        "sha256": "9d72fbc2788588f61ac97abc672ef69e9a963c585132756a42af1bc733f98a21",
+        "sha256": "ed3f49b033ede52d535fad42623cc18fc288729c1c2971180225e9ceb4247308",
         "terms": "Each copied text governs its own component; inventory is attribution metadata. No proprietary relicense."
       },
       "licenses/third-party/MANIFEST.json": {
         "category": "third_party_notice_or_inventory",
         "final_owner_grant": false,
-        "sha256": "ce3f1c4d050be606d6e2fa89d4f2e24cbfafb43a1f2fc291d8fe7e27bc925946",
+        "sha256": "f85e84d3524283358debbdbb267e9eedffb6ea033b884303d16af9363e43b88d",
         "terms": "Each copied text governs its own component; inventory is attribution metadata. No proprietary relicense."
       },
       "licenses/third-party/nuitka/LICENSE-RUNTIME.txt": {
@@ -270,7 +270,7 @@
         "category": "own_product_material_pending_review",
         "final_owner_grant": true,
         "provenance": "Original per-file rights review remains limited; not inferred from Codex generation",
-        "sha256": "224cf0952e84b39045af0106047646f5735436e4219323deada6b4071d9fa07c",
+        "sha256": "7683cca4c350631137a9e3e46387d2c068c279e4dfb6a8d5d3d4b6a82105fbef",
         "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED",
         "terms": "EvoTree Free Local License 1.0 for cleared own material; earlier grants and third-party rights preserved"
       },
@@ -278,7 +278,7 @@
         "category": "own_product_material_pending_review",
         "final_owner_grant": true,
         "provenance": "New integration instructions; not a blanket origin attestation",
-        "sha256": "609e028e3d6866c823cc0c9145e74c24381a0571bdbf15fd780c1d2d1f39c064",
+        "sha256": "d49e7ee757631c38725525d7ede9115b41201cda308fcd3b0b3e6bdb473ab6af",
         "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED",
         "terms": "EvoTree Free Local License 1.0 for cleared own material; earlier grants and third-party rights preserved"
       },
@@ -286,7 +286,7 @@
         "category": "own_product_material_pending_review",
         "final_owner_grant": true,
         "provenance": "Original per-file rights review remains limited; not inferred from Codex generation",
-        "sha256": "ffeb99325a7be26612cbdd1e9ed413894db1c22a96c853d3168335e4af10c1a8",
+        "sha256": "0f2fcf8bb1f0702ce51913acb9f50eca4cdb2263a9eec54648ffe9c2f7272d13",
         "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED",
         "terms": "EvoTree Free Local License 1.0 for cleared own material; earlier grants and third-party rights preserved"
       },
@@ -294,7 +294,7 @@
         "category": "own_product_material_pending_review",
         "final_owner_grant": true,
         "provenance": "Original per-file rights review remains limited; not inferred from Codex generation",
-        "sha256": "824e61f466bfcc1678616cc9588bcce825c4810f06d4b667a8ba8cef8801d954",
+        "sha256": "9384ccb45fec57f551d9c922acfece3ce450b7a2747a2d1ddc905e1eab8c85a9",
         "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED",
         "terms": "EvoTree Free Local License 1.0 for cleared own material; earlier grants and third-party rights preserved"
       },
@@ -302,7 +302,7 @@
         "category": "own_product_material_pending_review",
         "final_owner_grant": true,
         "provenance": "Original per-file rights review remains limited; not inferred from Codex generation",
-        "sha256": "7cbbeda21aef0af8513bab14b155e9a02eeb6b8c6ff3d522759e2c691e5727a4",
+        "sha256": "2a5861c701dee035a674c6f0ba70aec62fc7cb0c7f35d8303b22f9f5f33353a7",
         "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED",
         "terms": "EvoTree Free Local License 1.0 for cleared own material; earlier grants and third-party rights preserved"
       },
@@ -310,7 +310,7 @@
         "category": "own_product_material_pending_review",
         "final_owner_grant": true,
         "provenance": "Original per-file rights review remains limited; not inferred from Codex generation",
-        "sha256": "ee063c187a937127569cd410c1c9f0e8ea500c56afbd60bf7fbe70230fcd0218",
+        "sha256": "72d4ebe277c24b293b5488a1da43f515d40b38bee3f9cca6176e48a6a8b357d6",
         "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED",
         "terms": "EvoTree Free Local License 1.0 for cleared own material; earlier grants and third-party rights preserved"
       },
@@ -326,7 +326,7 @@
         "category": "own_product_material_pending_review",
         "final_owner_grant": true,
         "provenance": "Original per-file rights review remains limited; not inferred from Codex generation",
-        "sha256": "51cfcdd380e42776814f133dec530110c2745c5ee52510e8cf105ad4b699810f",
+        "sha256": "cc12a21ac67e33a55474f4ba5c91d65f79f4c78451b86932cfd58621a3e806d6",
         "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED",
         "terms": "EvoTree Free Local License 1.0 for cleared own material; earlier grants and third-party rights preserved"
       },
@@ -334,7 +334,7 @@
         "category": "own_product_material_pending_review",
         "final_owner_grant": true,
         "provenance": "Original per-file rights review remains limited; not inferred from Codex generation",
-        "sha256": "f2774bd36bb5eb72829b3b4720a446670fbe5d4d163acb5bfda216774bf807bf",
+        "sha256": "015c081b2067a2f26fde478e5326b295906f8ff890a301346171d6ab2a349e08",
         "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED",
         "terms": "EvoTree Free Local License 1.0 for cleared own material; earlier grants and third-party rights preserved"
       },
@@ -342,7 +342,7 @@
         "category": "own_product_material_pending_review",
         "final_owner_grant": true,
         "provenance": "Original per-file rights review remains limited; not inferred from Codex generation",
-        "sha256": "ee8a4396e3477950c658fea1a45e90176e8709cfa6bd39058eed2bbfc7cb510a",
+        "sha256": "2420467b992d4f5fddb60ea25e01547047b86fbce463e84037983672afdb88fc",
         "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED",
         "terms": "EvoTree Free Local License 1.0 for cleared own material; earlier grants and third-party rights preserved"
       },
@@ -350,7 +350,7 @@
         "category": "own_product_material_pending_review",
         "final_owner_grant": true,
         "provenance": "Original per-file rights review remains limited; not inferred from Codex generation",
-        "sha256": "0a58fa2baab2c6778565062ceae3c15989a6334bf11bf8dfff36dacf73375426",
+        "sha256": "57baea873f7496cb3fcc7f2f50beee212832a4040cc9ddc2b283e745b8096996",
         "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED",
         "terms": "EvoTree Free Local License 1.0 for cleared own material; earlier grants and third-party rights preserved"
       },
@@ -358,7 +358,7 @@
         "category": "own_product_material_pending_review",
         "final_owner_grant": true,
         "provenance": "Original per-file rights review remains limited; not inferred from Codex generation",
-        "sha256": "635eddba34408843ed8be14ac77511c183112017b59c7fc5dae04422e4d871dc",
+        "sha256": "c62255e90c1883ed4f8373f50faca72d31c98533bac86cf035141446ffd01396",
         "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED",
         "terms": "EvoTree Free Local License 1.0 for cleared own material; earlier grants and third-party rights preserved"
       },
@@ -397,14 +397,16 @@
     },
     "installed_root_relative": ".agents/skills/evotree",
     "license_mapping": "Own parts: EvoTree Free Local License 1.0; third-party and earlier rights preserved",
+    "native_runtime_changed_from_38": true,
+    "new_compiler_run_in_69": false,
     "path": null,
-    "sha256": "6e84fb645bc379427d0358dc158c10dc10deaa57f36d8a684e3ea25146cdcb25",
-    "source_url": "https://evotree-downloads.pages.dev/artifacts/6e84fb645bc379427d0358dc158c10dc10deaa57f36d8a684e3ea25146cdcb25/evotree-0.7.0-dev.60-license-candidate.zip",
+    "sha256": "57780cd02eeebd1ce76117594375ab84ae05e34495f0410a337ce3b0bb0dc2e3",
+    "source_url": "https://evotree-downloads.pages.dev/artifacts/57780cd02eeebd1ce76117594375ab84ae05e34495f0410a337ce3b0bb0dc2e3/evotree-0.7.0-dev.69-english-candidate-r3.zip",
     "third_party_notices_embedded": true,
-    "unchanged_product_files": "Binary, Python runtime, browser files, wrappers and operation references byte-identical to .38; license/notice metadata changed",
-    "version": "0.7.0-dev.60-license-candidate"
+    "unchanged_product_files": "CPython runtime, compatibility wrappers and upstream license originals unchanged; own native messages/instructions, browser UI, operating references and review inventories changed",
+    "version": "0.7.0-dev.69-english-candidate-r3"
   },
-  "core_language_translation_pending": true,
+  "core_language_translation_pending": false,
   "earlier_valid_licenses_not_revoked": true,
   "final_owner_approval": true,
   "format": "evotree-split-license-map-v1",
@@ -424,7 +426,7 @@
     "README.md": {
       "license": "MIT",
       "owner_license_choice_approved": true,
-      "sha256": "df2ac612705b35798867ce5876bd334e1335cfde563d78f6c6a85edcdc792ee1",
+      "sha256": "4d435b3d042b13e95afceadfad55f9b6b019c797b3a6a4be15c05c9f23afcb78",
       "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED"
     },
     "assets/icon.svg": {
@@ -436,7 +438,7 @@
     "plugin.json": {
       "license": "MIT",
       "owner_license_choice_approved": true,
-      "sha256": "52fd06ab5536faca624897ffc9782f912427be4145baa6a2eb142a5050892406",
+      "sha256": "12dfb2e941364763c1b50a98bcd9644fddb982b2965d56c534a63aa8b56e3852",
       "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED"
     },
     "skills/evotree-setup/LICENSE-MAP.json": {
@@ -448,7 +450,7 @@
     "skills/evotree-setup/SKILL.md": {
       "license": "MIT",
       "owner_license_choice_approved": true,
-      "sha256": "2f2d8e5804877d98ce17b69d01c842ad0fa9ad4dece396d7a66dac8db0db9a10",
+      "sha256": "a2840cb68befcac5c7be7acfadf231412fd5ca967f2f32b70c75c38745c49093",
       "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED"
     },
     "skills/evotree-setup/agents/openai.yaml": {
@@ -460,7 +462,7 @@
     "skills/evotree-setup/channel.json": {
       "license": "MIT",
       "owner_license_choice_approved": true,
-      "sha256": "9b9b575bba2db5620dfe51172540721760e799ad784799c466feee779fd9af57",
+      "sha256": "e0685a792a349468933b3cd803884c8ccdca12cbd4e0f31d924d2c1b1973368b",
       "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED"
     },
     "skills/evotree-setup/licenses/EVOTREE-FREE-LOCAL.md": {
@@ -484,7 +486,7 @@
     "skills/evotree-setup/scripts/install.sh": {
       "license": "MIT",
       "owner_license_choice_approved": true,
-      "sha256": "e22331b6242baea1fb05a9cf099e1eacb789eb5cfbb20a651a054452c849bb93",
+      "sha256": "8d2dda5d792daff2f673506bbc981756caa31f1931791dd3e72418ac149a6092",
       "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED"
     }
   },
@@ -513,5 +515,5 @@
     "signed_download_path_proven": false,
     "unknown_metadata": "fail_closed"
   },
-  "version": "0.7.0-dev.67-english-integration"
+  "version": "0.7.0-dev.69-english-candidate-r3"
 }
