@@ -1,56 +1,61 @@
 # EvoTree
 
-Lokaler Featurebaum für ein Codex-Projekt auf einem Mac: Anforderungen,
-beobachtete Änderungen, Herkunft und Prüfbelege in einer Pixel-Art-Liveansicht.
-Absicht, beobachtete Änderung und geprüfter Abschluss bleiben getrennt.
+A local feature tree for one Codex project on a Mac: requirements, observed
+changes, provenance and evidence in a pixel-art live view. Intent, observed
+changes and verified completion remain separate.
 
-## Voraussetzungen und Einrichtung
+## Requirements and setup
 
-Native Vorschau für macOS 26+ auf arm64. Einrichtung über den lokalen
-Codex-Executor mit vorhandenen Mac-Systemwerkzeugen, ohne zusätzliche Python-
-Installation. Keine separate Mac-App, Hooks, Companion oder MCP-Server.
-Für die Einrichtung die Anweisungen in
-[evotree-setup](skills/evotree-setup/SKILL.md) verwenden. Konkretes Projekt,
-Download und Installation bestätigen. Installation aktiviert keine Aufnahme.
+Native preview for macOS 26+ on arm64. Codex performs setup through its local
+executor using existing Mac system tools; no additional Python installation is
+required. No separate Mac app, hooks, companion plugin or MCP server.
+Follow [evotree-setup](skills/evotree-setup/SKILL.md). Confirm the specific project,
+download and installation. Installation does not enable recording.
 
-Dieser Kanal bezieht den exakt gepinnten Kern einmalig vom öffentlichen HTTPS-Host.
-Der [Artefaktindex](https://evotree-downloads.pages.dev/ARTIFACTS.json) nennt Version,
-Größe und SHA-256. Keine Ersatzquelle oder ungeprüften Updates verwenden.
-Nach Einrichtung die installierte evotree-Anleitung und die ausgegebene
-instruction_file lesen. Aufnahme, Produzent und Runtime benötigen getrennte
-Zustimmungen. Gespeicherte Ansichten starten eine deaktivierte Erfassung nicht neu.
+This channel downloads one exact, pinned core archive from the public HTTPS host.
+The [artifact index](https://evotree-downloads.pages.dev/ARTIFACTS.json) lists its
+version, size and SHA-256. Do not use alternative sources or unverified updates.
+After setup, read the installed evotree instructions and the reported
+`instruction_file`. Recording, producer processing and runtime operation require
+their respective separate consent. Opening a saved view does not restart disabled
+capture.
 
-## Lokal und kostenlos
+## Local and free
 
-Die Grundversion bleibt dauerhaft kostenlos lokal für eigene private, berufliche
-und kommerzielle Projekte nutzbar. Kein Entwicklerkonto, Abo, Premiumkauf,
-zusätzlicher Modell-API-Schlüssel oder verpflichtende Cloudverarbeitung.
-Deterministisches Layout und Liveansicht laufen lokal. Optionaler semantischer
-Abgleich nutzt den vorhandenen Codex-Kontext und dessen Kontoeinstellungen.
-Codex selbst ist damit nicht als offline oder kostenlos zugesagt.
+The basic version remains free to use locally for your own personal, professional
+and commercial projects, without a time limit. No developer account, subscription,
+premium purchase, additional model API key or mandatory cloud processing is needed.
+Layout and live updates run locally and deterministically. Optional semantic
+matching uses the existing Codex context and account settings. This does not mean
+that Codex itself is offline or free.
 
-Eigene schmale Integration: MIT. Eigene Kernanteile: EvoTree Free Local License1.0.
-Drittanbieter- und früher erteilte Rechte bleiben erhalten. Exakte Datei-/
-Lizenzzuordnung unter skills/evotree-setup/LICENSE-MAP.json, gültige Lizenztexte
-unter skills/evotree-setup/licenses/. Der Kern und seine Quellen gehören nicht zum
-öffentlichen GitHub-Integrationsbaum. Kompilierung verhindert weder Kopien noch
-Analyse; Wrapper und Browserdateien bleiben lesbar. Keine pauschale ursprüngliche
-Urheberschaft oder vollständige Herkunftsklärung wird daraus abgeleitet.
+The project's own thin integration is MIT-licensed. Its own core contributions use
+EvoTree Free Local License 1.0. Third-party terms and previously granted rights
+remain intact. See `skills/evotree-setup/LICENSE-MAP.json` for the exact allocation
+and `skills/evotree-setup/licenses/` for the license texts. The core and its sources
+are excluded from this public GitHub integration tree. Compilation does not
+prevent copying or analysis; thin wrappers and browser files remain readable.
+No claim of wholly original authorship or complete provenance verification follows
+from this allocation.
 
-## Grenzen und Hilfe
+## Limitations and support
 
-Die öffentliche HTTPS-Auslieferung und der Python-freie Download-/Installationsweg
-sind auf dem vorhandenen macOS26/arm64-Testhost geprüft. Kein Clean-Mac-, Intel-,
-älteres-macOS-, Notarisierungs- oder pauschaler Plattform-Trustnachweis. Der
-Installer entfernt keine Quarantäne oder anderen Schutzattribute. Bei Blockaden
-stoppen; keine Schutzumgehung oder automatische Nachinstallation.
-Die öffentliche Verzeichnisannahme und Auffindbarkeit stehen noch aus.
+Public HTTPS delivery and setup without external Python have been tested on the
+existing macOS 26/arm64 host. Clean-Mac, Intel, older macOS, notarization and general
+platform trust are not established. The installer does not remove quarantine or
+other security attributes. Stop if blocked; do not bypass protection or install
+missing dependencies automatically. Public Directory admission and discovery are
+still pending.
 
-[Datenschutzhinweise](PRIVACY.md). Vorgesehener öffentlicher Support nach Freigabe
-dieses Integrationsrepositorys: GitHub Issues dieses Repositorys. Keine privaten
-Prompts, Kundendaten, Secrets oder vollständigen Projektarchive in Fehlerberichte.
-Herausgeber: Andreas Aschenbrenner; Copyrightalias: tsn65wtnrj-max.
-Integrationsstand 0.7.0-dev.64-publication-candidate; ausführbarer Setupvertrag unverändert .62,
-geprüfter und öffentlich gehosteter Kern unverändert .60. Downloadhost und
-Verzeichnisse können sich ändern oder ausfallen; rechtmäßig installierte
-Grundversionen bleiben davon unabhängig lokal nutzbar.
+Read the [privacy notice](PRIVACY.md). Public support is available through this
+repository's [GitHub Issues](https://github.com/tsn65wtnrj-max/EvoTree/issues).
+Do not include private prompts, customer data, secrets or complete project
+archives in reports. Publisher: Andreas Aschenbrenner; copyright alias:
+`tsn65wtnrj-max`.
+
+Integration revision: `0.7.0-dev.67-english-integration`. Executable setup remains
+the verified .62 profile and the hosted core remains .60. That older core still
+contains German UI and operating instructions; their English replacement is being
+prepared and has not been published. This revision translates the public
+integration, not the core. Download hosts and directories may change or become
+unavailable; lawfully installed basic versions remain usable locally.
