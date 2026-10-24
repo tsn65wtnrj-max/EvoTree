@@ -404,6 +404,7 @@
     "unchanged_product_files": "Binary, Python runtime, browser files, wrappers and operation references byte-identical to .38; license/notice metadata changed",
     "version": "0.7.0-dev.60-license-candidate"
   },
+  "core_language_translation_pending": true,
   "earlier_valid_licenses_not_revoked": true,
   "final_owner_approval": true,
   "format": "evotree-split-license-map-v1",
@@ -417,13 +418,13 @@
     "PRIVACY.md": {
       "license": "MIT",
       "owner_license_choice_approved": true,
-      "sha256": "ce0157a37351d137560b23e98d361017d9c4ead4588905bf34c3536a90bf1620",
+      "sha256": "130e5492de6141d7867ad52a2df5fcdc8849e3e60b81f279c0dc78a887d23ffd",
       "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED"
     },
     "README.md": {
       "license": "MIT",
       "owner_license_choice_approved": true,
-      "sha256": "0e91bf4bbafbf5170da6ae67d93031fe02f79cf49ed814d1ee80f3712b43a249",
+      "sha256": "df2ac612705b35798867ce5876bd334e1335cfde563d78f6c6a85edcdc792ee1",
       "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED"
     },
     "assets/icon.svg": {
@@ -435,7 +436,7 @@
     "plugin.json": {
       "license": "MIT",
       "owner_license_choice_approved": true,
-      "sha256": "7ef5b38744c74a27bf0b8d438f3f8b248425831525edb576e50f9f33feebeaef",
+      "sha256": "52fd06ab5536faca624897ffc9782f912427be4145baa6a2eb142a5050892406",
       "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED"
     },
     "skills/evotree-setup/LICENSE-MAP.json": {
@@ -447,13 +448,13 @@
     "skills/evotree-setup/SKILL.md": {
       "license": "MIT",
       "owner_license_choice_approved": true,
-      "sha256": "22f10a0cdda19043bb88f5bac65ee527c766cda9296fec6bee18a297afe8d31b",
+      "sha256": "2f2d8e5804877d98ce17b69d01c842ad0fa9ad4dece396d7a66dac8db0db9a10",
       "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED"
     },
     "skills/evotree-setup/agents/openai.yaml": {
       "license": "MIT",
       "owner_license_choice_approved": true,
-      "sha256": "e7dc1ab8cc26417fbf26c74651e53dfd4cbf4d82dce28c3dcc28efb7bd9997f1",
+      "sha256": "0f5dc4f2546f6daa4a2262b9ad3c66f3b6cb5b98017ff931bcc56637c06f0bf7",
       "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED"
     },
     "skills/evotree-setup/channel.json": {
@@ -465,7 +466,7 @@
     "skills/evotree-setup/licenses/EVOTREE-FREE-LOCAL.md": {
       "license": "LICENSE-DOCUMENT-NOT-PRODUCT-GRANT",
       "owner_license_choice_approved": true,
-      "sha256": "3fb10c995e9445b14b993754189734c5051a2f2160a9534be92bf249a6c19ff7",
+      "sha256": "2cb1b4bb6bd524278b30c75719265c3f11dba39ea38a458ce9f89a4cd3ddc41f",
       "source_rights_status": "ORIGINAL_PROVENANCE_LIMITS_RETAINED"
     },
     "skills/evotree-setup/licenses/INTEGRATION-MIT.md": {
@@ -495,7 +496,9 @@
     "older_macos_execution_pass": false,
     "tested_host": "macOS26.6.2 arm64"
   },
+  "own_free_local_text": "English rendering of approved 1.0 rights; allocation unchanged",
   "premium_assets_included": false,
+  "public_integration_language": "en",
   "status": "OWNER_LICENSE_CHOICE_APPROVED_UNPUBLISHED",
   "technical_source_protection": {
     "binary_copy_or_reverse_engineering_prevented": false,
@@ -510,5 +513,5 @@
     "signed_download_path_proven": false,
     "unknown_metadata": "fail_closed"
   },
-  "version": "0.7.0-dev.64-publication-candidate"
+  "version": "0.7.0-dev.67-english-integration"
 }
